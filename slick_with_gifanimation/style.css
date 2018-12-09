@@ -22,7 +22,7 @@ body {
   margin-top: -300px;
   padding-top: 300px;
 }
-.preload {
+[data-dom="preload"] {
   position: absolute;
   overflow: hidden;
   width: 1px;
