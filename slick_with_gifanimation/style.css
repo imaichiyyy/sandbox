@@ -1,0 +1,32 @@
+body {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.message .item {
+  padding: 10px;
+  background-color: bisque;
+}
+.figure {
+  pointer-events: none;
+}
+.figure img {
+  opacity: 1;
+  transition: .2s opacity;
+}
+.figure .is-animate {
+  opacity: 0;
+  transition: .1s opacity;
+}
+.slick-list.draggable {
+  margin-top: -300px;
+  padding-top: 300px;
+}
+.preload {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  right: 0;
+  bottom: 0;
+}
